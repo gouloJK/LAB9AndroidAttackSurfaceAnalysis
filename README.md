@@ -61,7 +61,7 @@ All subsequent commands will traverse this secure tunnel.
 ### Drozer console session established
 <img width="845" height="440" alt="image" src="https://github.com/user-attachments/assets/99118a7c-b4ae-409a-a6a8-bdbe5eabc64a" />
 
-## 📦 Phase 2 – Target Deployment (DIVA)
+##  Phase 2 – Target Deployment (DIVA)
 
 ### Installing the vulnerable test application
 ```powershell
@@ -84,7 +84,7 @@ dz> run app.package.list -f diva
 jakhar.aseem.diva (Diva)
 ```
 
-🔍 Package identified: jakhar.aseem.diva
+ Package identified: jakhar.aseem.diva
 
 ### Global attack surface summary
 ```
@@ -109,7 +109,7 @@ Attack Surface:
 #### Attack surface summary
 <img width="584" height="206" alt="image" src="https://github.com/user-attachments/assets/e3783c51-a9fb-4c10-87ce-8c542f984cce" />
 
-## 🔬 Phase 4 – Component‑level Introspection
+##  Phase 4 – Component‑level Introspection
 
 ### 4.1 Activity inventory
 ```
@@ -146,11 +146,12 @@ Authority: jakhar.aseem.diva.provider.notesprovider
 🔴 **Critical finding** : One Content Provider is exported without any permission requirement.
 
 #### Component enumeration results
-<img width="779" height="262" alt="image" src="https://github.com/user-attachments/assets/2cf0a123-d515-46a4-84fb-3b5a65af704c" />
+<img width="650" height="227" alt="3 (4)" src="https://github.com/user-attachments/assets/39bf5002-503a-4955-846f-8e830101b2ed" />
+
 
 <img width="595" height="449" alt="image" src="https://github.com/user-attachments/assets/670e3bbc-f9ff-468b-89f9-487792f028ec" />
 
-## 💥 Phase 5 – Data Exposure Verification (Defensive)
+## Phase 5 – Data Exposure Verification (Defensive)
 
 ### 5.1 Content Provider unauthorized access test
 ```
@@ -174,7 +175,7 @@ Any malicious app installed on the device or any ADB-connected tool can exfiltra
 #### Data extraction proof
 <img width="903" height="185" alt="image" src="https://github.com/user-attachments/assets/336ea4d1-6d16-45e1-8af5-068b1a173fc7" />
 
-## 🕵️ Phase 6 – Static Credential Discovery
+##  Phase 6 – Static Credential Discovery
 
 ### Manual inspection of APICredsActivity
 Launching the activity via the launcher reveals:
